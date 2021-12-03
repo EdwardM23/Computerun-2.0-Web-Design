@@ -260,7 +260,7 @@ footer {
     width: 300px;
   }
 }
-/* Tablet Landscape Version ===================================== */
+/* Tablet Potrait Version ===================================== */
 @media all and (max-width: 768px) {
   header {
     margin: 0 0 20px;
@@ -278,9 +278,14 @@ footer {
     margin-top: 20px;
   }
 
-  .about-us .sec2 .vision,
-  .mission img {
-    width: 200px;
+  .about-us .sec2 {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .about-us .sec2 .vision {
+    flex-direction: column;
   }
 }
 
