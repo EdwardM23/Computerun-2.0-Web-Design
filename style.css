@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 20px auto 50px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 5px 50px rgba(85, 85, 85, 0.19);
+}
+
+.logo img {
+  height: 80px;
+  margin-left: 30px;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav-menu ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.nav-menu ul li a {
+  color: #00b3c8;
+  font-style: oblique;
+}
+
+/* CONTENT =========================================================*/
+
+.content {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campaign {
+  display: flex;
+  align-items: center;
+}
+
+.campaign .desc {
+  padding: 50px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  width: 400px;
+  margin-right: 50px;
+}
+
+.campaign .desc h3 {
+  color: #00b3c8;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.campaign .desc p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.campaign .desc input[type="button"] {
+  border: none;
+  background-color: #f36523;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.campaign .desc input[type="button"]:hover {
+  cursor: pointer;
+}
+
+.campaign img {
+  position: relative;
+  height: 25vw;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+
+.products h3 {
+  font-size: 36px;
+}
+
+.products .cards {
+  display: flex;
+}
+
+.products .card {
+  width: 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  margin: 20px;
+  background-color: white;
+  border: 2px solid rgb(219, 219, 219);
+}
+
+.products .card:hover {
+  transform: scale(1.05);
+  transition: 0.15s;
+}
+
+.products img {
+  height: 100px;
+}
+
+.products h4 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.products p {
+  color: grey;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 30px;
+}
+
+.about-us h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us .sec1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about-us .sec1 .detail {
+  width: 600px;
+  margin-right: 50px;
+}
+
+.about-us .sec1 img {
+  height: 200px;
+}
+
+.about-us .detail p {
+  line-height: 1.5em;
+}
+
+.about-us .sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us .sec2 span {
+  color: #00b3c8;
+}
+
+.sec2 .vision,
+.mission {
+  margin: 30px 0;
+}
+
+.sec2 img {
+  width: 400px;
+}
+
+.sec2 .vision img {
+  margin: 0 20px;
+}
+
+.sec2 .mission img {
+  margin: 0 20px;
+}
+
+/* FOOTER ======================================================= */
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tablet Landscape Version ===================================== */
+@media all and (max-width: 1024px) {
+  .campaign {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .campaign img {
+    width: min-content;
+    height: 300px;
+  }
+
+  .campaign .desc {
+    width: 350px;
+    padding: 20px 40px;
+  }
+
+  .campaign .desc h3 {
+    font-size: 36px;
+  }
+
+  .products .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-us .sec1 .detail {
+    width: 50vw;
+  }
+
+  .about-us .sec2 .vision,
+  .mission {
+    align-items: center;
+  }
+
+  .about-us .sec2 img {
+    width: 300px;
+  }
+}
+/* Tablet Landscape Version ===================================== */
+@media all and (max-width: 768px) {
+  header {
+    margin: 0 0 20px;
+  }
+
+  header .nav-menu {
+    display: none;
+  }
+
+  .about-us .sec1 {
+    flex-direction: column;
+  }
+
+  .about-us .sec1 img {
+    margin-top: 20px;
+  }
+
+  .about-us .sec2 .vision,
+  .mission img {
+    width: 200px;
+  }
+}
+
+/* Mobile Version =============================================== */
+@media all and (max-width: 320px) {
+}
