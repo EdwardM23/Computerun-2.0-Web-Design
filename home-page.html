@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dewaweb | Home Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-home.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="assets/dewaweb-chp-horizontal-logo-rgb.png" alt="" />
+        <a href="home-page.html">
+          <img src="assets/dewaweb-chp-horizontal-logo-rgb.png" alt="" />
+        </a>
       </div>
       <div class="nav-menu">
         <ul>
-          <li><a href="#">Product</a></li>
+          <li><a href="product-page.html">Product</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">About Us</a></li>
         </ul>
       </div>
+      <img class="burger" src="assets/burger-icon.png" alt="" />
     </header>
 
     <div class="content">
@@ -76,23 +80,24 @@
             <img src="assets/unlimited-bandwidth.png" alt="" />
             <p>Unlimited Bandwidth</p>
           </div>
-          <div class="item">
+          <div class="item item-more">
             <img src="assets/faster-connection.png" alt="" />
             <p>Faster Connection</p>
           </div>
-          <div class="item">
+          <div class="item item-more">
             <img src="assets/premium-protection.png" alt="" />
             <p>Premium Connection</p>
           </div>
-          <div class="item">
+          <div class="item item-more">
             <img src="assets/quick-healing-network.png" alt="" />
             <p>Quick Healing Network</p>
           </div>
-          <div class="item">
+          <div class="item item-more">
             <img src="assets/automatic-cloud-backup.png" alt="" />
             <p>Automatic Cloud Backup</p>
           </div>
         </div>
+        <button id="btn-see-more" onclick="toggleBenefits()">See more</button>
       </div>
 
       <div class="about-us">
@@ -131,6 +136,68 @@
     </div>
     <!-- close content -->
 
-    <footer>&copy; Copyright Dewaweb 2021</footer>
+    <footer>
+      <div class="footer">
+        <div class="sec1">
+          <img
+            class="logo"
+            src="assets/dewaweb-chp-horizontal-logo-monochrome-white.png"
+            alt=""
+          />
+          <div class="detail">
+            <div class="logos">
+              <img src="assets/bsi-logo.png" alt="" />
+              <img src="assets/digicert-logo.png" alt="" />
+              <img src="assets/dmca-logo.png" alt="" />
+            </div>
+            <div class="profile">
+              <p>PT Dewaweb</p>
+              <p>AKR Tower - 16th Floor</p>
+              <p>Jl. Panjang no. 5, Kebon Jeruk</p>
+              <p>Jakarta 11530</p>
+              <br />
+              <p>Email: sales@dewaweb.com</p>
+              <p>Phone: (021) 2212-4702</p>
+              <p>Mobile: 0813-1888-4702</p>
+            </div>
+          </div>
+        </div>
+        <div class="sec2">
+          <h4>Page</h4>
+          <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="sec3">
+          <h4>Be Social</h4>
+          <ul>
+            <li>
+              <img src="assets/fb-logo.png" alt="" />
+              Facebook
+            </li>
+            <li>
+              <img src="assets/twitter-logo.png" alt="" />
+              Twitter
+            </li>
+            <li>
+              <img src="assets/ig-logo.png" alt="" />
+              Instagram
+            </li>
+            <li>
+              <img src="assets/youtube-logo.png" alt="" />
+              YouTube
+            </li>
+            <li>
+              <img src="assets/linkedin-logo.png" alt="" />
+              LinkedIn
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">© Dewaweb 2021</div>
   </body>
 </html>
