@@ -12,6 +12,7 @@ function toggleBenefits() {
       btn.innerText = "See less";
     } else {
       divs[i].style.display = "none";
+      btn.innerText = "See more";
     }
   }
 }
