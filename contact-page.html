@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dewaweb | Home Page</title>
+    <link rel="stylesheet" href="style-contact.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="home-page.html">
+          <img
+            src="assets/dewaweb-chp-horizontal-logo-monochrome-white.png"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="product-page.html">Product</a></li>
+          <li><a href="contact-page.html">Contact</a></li>
+          <li><a href="about-us-page.html">About Us</a></li>
+        </ul>
+      </div>
+      <img
+        id="burger"
+        onclick="toggleMobileMenu()"
+        src="assets/burger-icon-white.png"
+      />
+      <img
+        id="burger-close"
+        src="assets/white-close.png"
+        onclick="toggleMobileMenu()"
+      />
+    </header>
+    <div id="mobile-menu">
+      <a href="product-page.html">Product</a>
+      <a href="contact-page.html">Contact</a>
+      <a href="about-us-page.html">About Us</a>
+    </div>
+
+    <h3>Contact Us</h3>
+    <div class="content">
+      <div class="info">
+        <h4>Contact Info</h4>
+        <div class="address">
+          <img src="assets/address-icon.png" alt="" />
+          <p>
+            PT Dewaweb AKR Tower – 16th Floor Jl. Panjang no. 5, Kebon Jeruk
+            Jakarta 11530
+          </p>
+        </div>
+        <div class="email">
+          <img src="assets/chat-icon.png" alt="" />
+          <p>
+            <a
+              href="mailto:sales@dewaweb.com
+              "
+              >sales@dewaweb.com
+            </a>
+          </p>
+        </div>
+        <div class="phone">
+          <img src="assets/call-icon.png" alt="" />
+          <div class="phone-number">
+            <p>
+              <a
+                href="tel:(021) 2212-4702
+                "
+                >Phone: (021) 2212-4702
+              </a>
+            </p>
+            <p>
+              <a href="tel:0813-1888-4702">Mobile: 0813-1888-4702</a>
+            </p>
+          </div>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/dewaweb"
+            ><img src="assets/fb-logo.png" alt=""
+          /></a>
+          <a href="https://www.twitter.com/Dewaweb"
+            ><img src="assets/twitter-logo.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/dewaweb"
+            ><img src="assets/ig-logo.png" alt=""
+          /></a>
+          <a href="https://www.youtube.com/dewaweb?sub_confirmation=1"
+            ><img src="assets/youtube-logo.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/company/dewaweb"
+            ><img src="assets/linkedin-logo.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="form">
+        <form action="">
+          <h4 class="data">Send Us a Message</h4>
+          <label for="first-name">First Name:</label>
+          <input type="text" name="first-name" id="first-name" />
+
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" id="last-name" />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="tel">Telephone:</label>
+          <input type="tel" name="tel" id="tel" />
+
+          <h4 class="message">
+            Write your feedback or opinion below. Any feedback will be very much
+            appreciated
+          </h4>
+          <textarea name="message" id="message"></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <!-- close content -->
+
+    <footer>
+      <div class="footer">
+        <div class="sec1">
+          <img
+            class="logo"
+            src="assets/dewaweb-chp-horizontal-logo-monochrome-white.png"
+            alt=""
+          />
+          <div class="detail">
+            <div class="logos">
+              <img src="assets/bsi-logo.png" alt="" />
+              <img src="assets/digicert-logo.png" alt="" />
+              <img src="assets/dmca-logo.png" alt="" />
+            </div>
+            <div class="profile">
+              <p>PT Dewaweb</p>
+              <p>AKR Tower - 16th Floor</p>
+              <p>Jl. Panjang no. 5, Kebon Jeruk</p>
+              <p>Jakarta 11530</p>
+              <br />
+              <p>Email: sales@dewaweb.com</p>
+              <p>Phone: (021) 2212-4702</p>
+              <p>Mobile: 0813-1888-4702</p>
+            </div>
+          </div>
+        </div>
+        <div class="sec2">
+          <h4>Page</h4>
+          <ul>
+            <li><a href="home-page.html">Home</a></li>
+            <li><a href="home-page.html">Products</a></li>
+            <li><a href="about-us-page.html">About Us</a></li>
+            <li><a href="home-page.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="sec3">
+          <h4>Be Social</h4>
+          <ul>
+            <li>
+              <img src="assets/fb-logo.png" alt="" />
+              Facebook
+            </li>
+            <li>
+              <img src="assets/twitter-logo.png" alt="" />
+              Twitter
+            </li>
+            <li>
+              <img src="assets/ig-logo.png" alt="" />
+              Instagram
+            </li>
+            <li>
+              <img src="assets/youtube-logo.png" alt="" />
+              YouTube
+            </li>
+            <li>
+              <img src="assets/linkedin-logo.png" alt="" />
+              LinkedIn
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">© Dewaweb 2021</div>
+  </body>
+</html>
