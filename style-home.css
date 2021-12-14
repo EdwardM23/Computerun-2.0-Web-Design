@@ -45,11 +45,15 @@ header {
   margin: 20px auto 50px;
   border-radius: 10px;
   padding: 5px 20px;
-  border: 1px solid rgb(236, 236, 236);
+  /* border: 1px solid rgb(236, 236, 236); */
   /* box-shadow: 0 5px 50px rgba(85, 85, 85, 0.19); */
 }
 
-header .burger {
+header #burger {
+  display: none;
+}
+
+header #burger-close {
   display: none;
 }
 
@@ -68,6 +72,19 @@ header .burger {
 }
 
 .nav-menu ul li a {
+  color: white;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+#mobile-menu ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+#mobile-menu ul li a {
   color: white;
 }
 
@@ -589,8 +606,28 @@ footer .sec3 img {
     display: none;
   }
 
-  header .burger {
+  header #burger {
     display: block;
+  }
+
+  #mobile-menu {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    border-radius: 14px;
+    align-items: center;
+    background-color: #004c6d;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 6px 0;
+  }
+
+  #mobile-menu a {
+    color: white;
+    margin: 4px 0;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
   }
 
   .campaign {

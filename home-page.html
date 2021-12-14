@@ -25,8 +25,22 @@
           <li><a href="about-us-page.html">About Us</a></li>
         </ul>
       </div>
-      <img class="burger" src="assets/burger-icon-white.png" alt="" />
+      <img
+        id="burger"
+        onclick="toggleMobileMenu()"
+        src="assets/burger-icon-white.png"
+      />
+      <img
+        id="burger-close"
+        src="assets/white-close.png"
+        onclick="toggleMobileMenu()"
+      />
     </header>
+    <div id="mobile-menu">
+      <a href="product-page.html">Product</a>
+      <a href="">Contact</a>
+      <a href="about-us-page.html">About Us</a>
+    </div>
 
     <div class="content">
       <div class="campaign">
@@ -89,7 +103,7 @@
           </div>
           <div class="item item-more">
             <img src="assets/premium-protection.png" alt="" />
-            <p>Premium Connection</p>
+            <p>Premium Protection</p>
           </div>
           <div class="item item-more">
             <img src="assets/quick-healing-network.png" alt="" />

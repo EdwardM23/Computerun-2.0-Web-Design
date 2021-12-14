@@ -16,3 +16,19 @@ function toggleBenefits() {
     }
   }
 }
+
+function toggleMobileMenu() {
+  var mobileMenu = document.getElementById("mobile-menu");
+  var burger = document.getElementById("burger");
+  var close = document.getElementById("burger-close");
+
+  if (mobileMenu.style.display == "flex") {
+    mobileMenu.style.display = "none";
+    burger.style.display = "block";
+    close.style.display = "none";
+  } else {
+    mobileMenu.style.display = "flex";
+    burger.style.display = "none";
+    close.style.display = "block";
+  }
+}
