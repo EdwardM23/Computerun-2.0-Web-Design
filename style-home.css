@@ -458,6 +458,7 @@ input[type="tel"] {
 .info {
   margin-top: 20px;
   font-style: italic;
+  width: 90vw;
 }
 
 .info span {
