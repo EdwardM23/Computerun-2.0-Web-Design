@@ -211,6 +211,7 @@ body {
 .ceo p {
   max-width: 700px;
   line-height: 1.5em;
+  text-align: center;
 }
 
 .ceo .quote {
