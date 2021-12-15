@@ -359,6 +359,14 @@ footer .sec3 img {
     width: 90%;
   }
 
+  .decoration {
+    width: 100px;
+  }
+
+  .vm {
+    margin-top: -25px;
+  }
+
   .boxes .vision,
   .mission {
     padding: 20px;
