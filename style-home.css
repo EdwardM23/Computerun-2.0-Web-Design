@@ -77,15 +77,6 @@ header #burger-close {
   display: none;
 }
 
-#mobile-menu ul li {
-  list-style: none;
-  margin: 20px 0;
-}
-
-#mobile-menu ul li a {
-  color: white;
-}
-
 body {
   background: linear-gradient(122.74deg, #008cc8 0%, #2ae3f9 102.43%);
 }
@@ -534,6 +525,12 @@ footer .sec3 ul li {
   margin: 8px 0;
   align-items: center;
   font-size: 16px;
+}
+
+footer .sec3 ul li a {
+  color: white;
+  margin: auto;
+  display: flex;
 }
 
 footer .sec3 ul li img {

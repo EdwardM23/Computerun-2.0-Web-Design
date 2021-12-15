@@ -70,15 +70,6 @@ header #burger-close {
   display: none;
 }
 
-#mobile-menu ul li {
-  list-style: none;
-  margin: 20px 0;
-}
-
-#mobile-menu ul li a {
-  color: white;
-}
-
 body {
   background: linear-gradient(110.78deg, #00b3c8 0%, #2ae3f9 100%);
 }
@@ -297,6 +288,12 @@ footer .sec3 ul li {
   font-size: 16px;
 }
 
+footer .sec3 ul li a {
+  color: white;
+  margin: auto;
+  display: flex;
+}
+
 footer .sec3 ul li img {
   margin-right: 8px;
 }
@@ -329,7 +326,7 @@ footer .sec3 img {
     display: none;
   }
 
-  header .burger {
+  header #burger {
     display: block;
   }
 
