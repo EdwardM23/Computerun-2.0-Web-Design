@@ -281,6 +281,10 @@ footer .sec2 ul li {
   font-size: 16px;
 }
 
+footer .sec2 ul li a {
+  color: white;
+}
+
 footer .sec3 ul li {
   list-style: none;
   display: flex;
